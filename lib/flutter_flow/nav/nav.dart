@@ -64,22 +64,12 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               : StartPageWidget(),
           routes: [
             FFRoute(
-              name: 'GPTFlow',
-              path: 'gPTFlow',
-              builder: (context, params) => GPTFlowWidget(),
-            ),
-            FFRoute(
               name: 'Epay',
               path: 'epay',
               builder: (context, params) => EpayWidget(
                 token: params.getParam('token', ParamType.JSON),
                 slink: params.getParam('slink', ParamType.String),
               ),
-            ),
-            FFRoute(
-              name: 'testList',
-              path: 'testList',
-              builder: (context, params) => TestListWidget(),
             ),
             FFRoute(
               name: 'TestJS',

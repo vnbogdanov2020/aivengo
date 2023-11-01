@@ -119,7 +119,7 @@ class _StartPageWidgetState extends State<StartPageWidget> {
 
                     setState(() {});
                   },
-                  text: 'Button',
+                  text: 'Epay module',
                   options: FFButtonOptions(
                     height: 40.0,
                     padding:
@@ -146,7 +146,7 @@ class _StartPageWidgetState extends State<StartPageWidget> {
                   onPressed: () async {
                     context.pushNamed('TestJS');
                   },
-                  text: 'Button2',
+                  text: 'HTML module',
                   options: FFButtonOptions(
                     height: 40.0,
                     padding:
@@ -173,7 +173,7 @@ class _StartPageWidgetState extends State<StartPageWidget> {
                   onPressed: () async {
                     await launchURL('aivengo://aivengo.com/startPage');
                   },
-                  text: 'Button2',
+                  text: 'App link',
                   options: FFButtonOptions(
                     height: 40.0,
                     padding:
