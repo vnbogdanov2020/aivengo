@@ -72,7 +72,7 @@ class _TestJSWidgetState extends State<TestJSWidget> {
             children: [
               FlutterFlowWebView(
                 content:
-                    '<head>\n    <title>Открыть ссылку по кнопке без JavaScript</title>\n</head>\n<body>\n    <h1>Нажмите кнопку, чтобы открыть ссылку</h1>\n\n    <a href=\"aivengo://aivengo.com/startPage\" target=\"_blank\">Открыть ссылку</a>\n<p>\n <a href=\"https://www.example.com\" id=\"openLinkButton\">Открыть ссылку</a>\n\n</body>\n',
+                    '\n<head>\n    <title>Open links</title>\n</head>\n<body>\n    <h1>Open links</h1>\n\n    <a href=\"aivengo://aivengo.com/startPage\" target=\"_blank\">Open APP</a>\n<p>\n <a href=\"https://www.example.com\" id=\"openLinkButton\">Open HTML</a>\n\n</body>',
                 height: MediaQuery.sizeOf(context).height * 1.0,
                 verticalScroll: true,
                 horizontalScroll: false,
